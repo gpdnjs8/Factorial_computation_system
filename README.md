@@ -15,3 +15,15 @@ Factorial core는 이 register 집합을 통해 외부 모듈과 데이터를 �
 
 ## RTL viewer
 ![alt text](image-1.png)
+
+## Module
+- Factorial core  
+: 주어진 operand의 값에 대해 factorial 연산을 수행한다.
+- BUS  
+: 여러 component 들 간에 data 를 전송(transfer)할 수 있도록 연결해주는 component이다.
+- Memory(RAM)  
+: 임의의 address에 대해 data를 읽고 쓴다.
+- Top  
+: BUS, Factorial core와 Memory를 instance하여 연결한 모듈이다. Top 모듈의 input port를 이용해 Top 모듈 내에 있는 BUS 의 master port 에 접근이 가능하다.memory mapped I/O 
+방식을 사용하여 외부(testbench)에서 주소를 통해 Top 모듈의 slave (Factorial core, Memory) device 에 접근이 가능하다. 또한 내부의 Factorial core에 직결된 interrupt 를 통해 core의 
+동작 상태를 testbench에 전달할 수 있다. 
