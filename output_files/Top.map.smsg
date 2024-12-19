@@ -1,0 +1,9 @@
+Warning (10273): Verilog HDL warning at ns_logic.v(45): extended using "x" or "z" File: C:/Users/hyewon/Desktop/222222222222222/ns_logic.v Line: 45
+Warning (10273): Verilog HDL warning at c_logic.v(96): extended using "x" or "z" File: C:/Users/hyewon/Desktop/222222222222222/c_logic.v Line: 96
+Warning (10273): Verilog HDL warning at c_logic.v(97): extended using "x" or "z" File: C:/Users/hyewon/Desktop/222222222222222/c_logic.v Line: 97
+Warning (10273): Verilog HDL warning at c_logic.v(98): extended using "x" or "z" File: C:/Users/hyewon/Desktop/222222222222222/c_logic.v Line: 98
+Warning (10268): Verilog HDL information at ram.v(21): always construct contains both blocking and non-blocking assignments File: C:/Users/hyewon/Desktop/222222222222222/ram.v Line: 21
+Warning (10268): Verilog HDL information at c_Fac.v(44): always construct contains both blocking and non-blocking assignments File: C:/Users/hyewon/Desktop/222222222222222/c_Fac.v Line: 44
+Warning (10273): Verilog HDL warning at _3_to_8_decoder.v(17): extended using "x" or "z" File: C:/Users/hyewon/Desktop/222222222222222/_3_to_8_decoder.v Line: 17
+Warning (10273): Verilog HDL warning at _8_to_1_MUX.v(20): extended using "x" or "z" File: C:/Users/hyewon/Desktop/222222222222222/_8_to_1_MUX.v Line: 20
+Warning (10273): Verilog HDL warning at hhh.v(29): extended using "x" or "z" File: C:/Users/hyewon/Desktop/222222222222222/hhh.v Line: 29
